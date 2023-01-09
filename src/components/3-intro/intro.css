@@ -1,0 +1,124 @@
+.introContainer {
+    background-color: rgb(244, 236, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.introTextboxBG {
+    background-color: rgba(200, 154, 37, 0.47);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    height: 19vw;
+    width: 40vw;
+    min-width: 300px;
+    min-height: 220px;
+    z-index: 2;
+}
+
+.introTextbox {
+    background-color: rgba(244, 236, 218, 0.83);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 93%;
+    width: 94%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dashTextbox {
+    background-color: rgba(200, 154, 37, 0.47);
+    height: 1vh;
+    width: 12vw;
+    
+}
+
+@media screen and (max-width: 750px) {
+    .dashTextbox {
+        width: 100px;
+    }
+}
+
+.movingImage1 {
+    position: relative;
+    height: 30vw;
+    top: -150px;
+    left: -70px;
+    padding: 100px;
+}
+
+@media screen and (max-width:750px) {
+    
+    .movingImage1 {
+        left: 50vw;
+        top: -190px;
+        height: 300px;
+    }
+    
+}
+
+.movingImage2 {
+    position: relative;
+    height: 30vw;
+    top: 185px;
+    right: -200px;
+    padding: 100px;
+}
+
+@media screen and (max-width:750px) {
+    
+    .movingImage2 {
+        right: 8vw;
+        top: 215px;
+        height: 300px;
+    }
+    
+}
+
+h1 { /*main header*/
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 5vw;
+    font-weight: 1000;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    white-space: nowrap;
+
+}
+
+
+@media screen and (max-width:750px) {
+    
+    h1 {
+        font-size: 40px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    
+}
+
+p {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-align: center;
+    
+
+}
+
+@media screen and (max-width:750px) {
+    
+    p {
+        font-size: 25px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    
+}

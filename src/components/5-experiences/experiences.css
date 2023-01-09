@@ -1,0 +1,8 @@
+.experiencesContainer {
+    background-color: rgb(182, 145, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
