@@ -30,20 +30,34 @@
     width: 94%;
     align-items: center;
     justify-content: center;
-
 }
 
 .dashTextbox {
     background-color: rgba(200, 154, 37, 0.47);
     height: 1vh;
     width: 12vw;
-    
 }
-
 @media screen and (max-width: 750px) {
     .dashTextbox {
         width: 100px;
-    }
+    }}
+
+.indContainer {
+    position:absolute;
+    bottom:1vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:130px;
+    width: 280px;
+    clear: both;
+}
+
+.indItem {
+    display: flex;
+    flex-direction: column;
 }
 
 .movingImage1 {
@@ -53,16 +67,12 @@
     left: -70px;
     padding: 100px;
 }
-
 @media screen and (max-width:750px) {
-    
     .movingImage1 {
         left: 50vw;
         top: -190px;
         height: 300px;
-    }
-    
-}
+    }}
 
 .movingImage2 {
     position: relative;
@@ -71,16 +81,12 @@
     right: -200px;
     padding: 100px;
 }
-
 @media screen and (max-width:750px) {
-    
     .movingImage2 {
         right: 8vw;
         top: 215px;
         height: 300px;
-    }
-    
-}
+    }}
 
 h1 { /*main header*/
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -89,36 +95,72 @@ h1 { /*main header*/
     margin-top: 1vw;
     margin-bottom: 1vw;
     white-space: nowrap;
+    cursor: default;
 
 }
-
-
 @media screen and (max-width:750px) {
-    
     h1 {
         font-size: 40px;
         margin-top: 12px;
         margin-bottom: 12px;
-    }
-    
-}
+    }}
 
-p {
+.textboxp {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 3vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
-    text-align: center;
-    
-
-}
-
-@media screen and (max-width:750px) {
-    
-    p {
+    cursor: default;
+    }
+@media screen and (max-width:750px) { 
+    .textboxp {
         font-size: 25px;
         margin-top: 15px;
         margin-bottom: 20px;
-    }
-    
+    }   
+}
+
+.indp {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 2rem;
+    font-weight: 1000;
+    color:rgb(121, 92, 17);
+    cursor: default;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.indIcon {
+    font-size: 2.5rem;
+    color:rgb(121, 92, 17);
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.bounce {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+@keyframes bounce {
+    0%{ transform: translateY(0); }
+    35%{ transform: translateY(10px); }
+    50%{ transform: translateY(0); }
+    100%{ transform: translateY(0); }
+}
+
+.bounce2 {
+    animation-name: bounce2;
+    animation-timing-function: ease;
+}
+@keyframes bounce2 {
+    0%{ transform: translateY(0); }
+    30%{ transform: translateY(10px); }
+    43%{ transform: translateY(0); }
+    52%{ transform: translateY(4px); }
+    59%{ transform: translateY(0); }
+    100%{ transform: translateY(0); }
+}
+
+.horizontalLeft {
+    transform: translateX(-5px) scale(1.5)
 }

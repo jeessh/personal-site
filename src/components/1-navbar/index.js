@@ -1,11 +1,16 @@
 /* eslint-disable no-restricted-globals */
 import React from 'react';
 import './navbar.css';
-import { FaBars } from 'react-icons/fa'
+import { ImProfile } from 'react-icons/im'
 import {Link as LinkS, animateScroll} from 'react-scroll'
+import pdf from '../../documents/theResume.pdf'
 
 
 const Navbar = ({ toggle }) => {
+
+    const onResumeClick = () => {
+        window.open(pdf);
+      }
 
     const toggleHome = () => {
         animateScroll.scrollToTop();
@@ -24,8 +29,6 @@ const Navbar = ({ toggle }) => {
         id.classList.add('active');
     }
 
-    
-    
     return (
         <nav className='nav'>
             <style>
@@ -33,8 +36,8 @@ const Navbar = ({ toggle }) => {
                 </style>
         <div className='navbarContainer'>
             <div className='navbarLogo' onClick={toggleHome}>JeessH</div>
-            <div className='navbarMobileIcon' onClick={toggle}>
-                <FaBars/>
+            <div className='navbarMobileIcon' onClick={onResumeClick}>
+                <ImProfile/>
             </div>
             <div className='navbarMenu'>
                 <li className='navbarItem'>
@@ -49,10 +52,15 @@ const Navbar = ({ toggle }) => {
                 <LinkS className='navbarLink' to='projects' 
                     smooth={true} duration={1000} spy={true} exact='true' offset={-1}>Projects</LinkS>
                 </li>
+                <li className='navbarItem'>
+                    <div className='navbarResumeIcon' onClick={onResumeClick}>
+                        <ImProfile/>
+                    </div>
+                </li>
             </div>
         </div>
         </nav>
     )
-} 
+}
 
 export default Navbar;

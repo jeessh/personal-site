@@ -43,7 +43,6 @@
 
 .navbarMenu {
     display: flex;
-    list-style: none;
     align-items: center;
     margin-right: -22px;
 }
@@ -98,3 +97,20 @@
         color: #ffffff;
     }
   }
+
+.navbarResumeIcon {
+    display: block;
+    color:#ffffff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    font-size: 2.8rem;
+    margin-top: 10px;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    
+}
+
+.navbarResumeIcon:hover {
+    color: black;
+    transition: 0.3s ease-in-out;
+}
