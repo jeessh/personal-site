@@ -2,7 +2,6 @@ import React, { useState, useEffect} from 'react';
 import './intro.css';
 import image1 from '../../images/introimg1.svg'
 import image2 from '../../images/introimg2.svg'
-import simpleParallax from 'simple-parallax-js';
 import { IoChevronDown } from 'react-icons/io5'
 
 const Intro = () => {
@@ -26,10 +25,8 @@ const Intro = () => {
             <div className='introTextboxBG'>
                 <div className='introTextbox'>
                     <h1>Jesse Huang</h1>
-                    <div className='dashTextbox'>
-                        <h1> </h1>
-                    </div>
-                    <p className='textboxp'>UW CS '27</p>
+                    <rect className='dashTextbox coverText'/>
+                    <p className='textboxp changeText'> </p>
                 </div>
             </div>
             <div className='indContainer'>

@@ -33,9 +33,18 @@
 }
 
 .dashTextbox {
-    background-color: rgba(200, 154, 37, 0.47);
+    background-color:rgba(222,193,131,255);
     height: 1vh;
-    width: 12vw;
+    width: 15vh;
+    position: absolute;
+    transform-origin: center;
+    align-items: center;
+    justify-content: center;
+    top: 18vh;
+    z-index: 10;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
 }
 @media screen and (max-width: 750px) {
     .dashTextbox {
@@ -105,12 +114,16 @@ h1 { /*main header*/
         margin-bottom: 12px;
     }}
 
-.textboxp {
+.textboxp::before {
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 3vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
     cursor: default;
+    position: relative;
+    content: "UW CS '27";
+    animation: changeText infinite 9s;
+    animation-timing-function: ease;
     }
 @media screen and (max-width:750px) { 
     .textboxp {
@@ -118,6 +131,12 @@ h1 { /*main header*/
         margin-top: 15px;
         margin-bottom: 20px;
     }   
+}
+
+@keyframes changeText {
+    0%{content: "UW CS '27"}
+    35%{ content: "Developer";}
+    66%{ content:"Artist";}
 }
 
 .indp {
@@ -163,4 +182,34 @@ h1 { /*main header*/
 
 .horizontalLeft {
     transform: translateX(-5px) scale(1.5)
+}
+
+.coverText {
+    animation-name: coverText;
+    animation-timing-function: ease;
+}
+@keyframes coverText {
+    0%{transform: translateY(0); }
+    20%{transform: translateY(40px) ;
+        height: 7.5vh;
+        width: 15vh;
+    }
+    30%{width: 30vh;
+    }
+    45%{transform: translateY(40px);
+        height: 7.5vh;}
+    55%{transform: translateY(40px);
+        height: 7.5vh;
+        width: 1vh;}
+    70%{transform: translateY(0);
+        width: 1vh;
+    }
+    85%{transform: translateY(0);
+        height: 1vh;
+        width: 15vh;
+    }
+    90%{transform: translateY(0);}
+    100%{ transform: translateY(0) ;}
+    
+
 }
