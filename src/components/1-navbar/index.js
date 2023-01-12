@@ -6,7 +6,7 @@ import {Link as LinkS, animateScroll} from 'react-scroll'
 import pdf from '../../documents/FirstYearResume.pdf'
 
 
-const Navbar = ({ toggle }) => {
+const Navbar = () => {
 
     const onResumeClick = () => {
         window.open(pdf);
