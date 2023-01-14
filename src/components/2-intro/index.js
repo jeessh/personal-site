@@ -17,14 +17,11 @@ const Intro = () => {
 
     return (
         <div className='introContainer' id='intro'>
-            <style>
-                @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
-                </style>
                 <img className='movingImage1 parallax' src={image1} style={{transform: `translateX(${offsetY * -0.5}px) translateY(${offsetY * 0.15}px)`}} alt='img1'/>
                 <img className='movingImage2' src={image2} style={{transform: `translateX(${offsetY * 0.5}px) translateY(${offsetY * -0.15}px)`}} alt='img2'/>    
             <div className='introTextboxBG'>
                 <div className='introTextbox'>
-                    <h1>Jesse Huang</h1>
+                    <h1 className='introHeader'>Jesse Huang</h1>
                     <rect className='dashTextbox coverText'/>
                     <p className='textboxp changeText'> </p>
                 </div>

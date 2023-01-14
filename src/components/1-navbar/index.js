@@ -32,8 +32,9 @@ const Navbar = () => {
     return (
         <nav className='nav'>
             <style>
-                @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&display=swap');
-                </style>
+            @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&display=swap');
+            </style>
         <div className='navbarContainer'>
             <div className='navbarLogo' onClick={toggleHome}>JeessH</div>
             <div className='navbarMobileIcon' onClick={onResumeClick}>

@@ -22,19 +22,20 @@
 .aboutInfoContainer {
     display: flex;
     flex-direction: row;
-    padding: 3rem;
+    padding: 2rem;
+    align-items: center;
 }
 
 .aboutText {
     background-color: rgb(225, 197, 156);
-    padding: 3rem;
-    font-size: 2.3rem;
+    padding: 5rem;
+    font-size: 2.5rem;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .aboutPicContainer {
     display: flex;
-    padding: 2rem;
+    padding: 5rem;
     align-items: center;
     justify-content: center;
 }

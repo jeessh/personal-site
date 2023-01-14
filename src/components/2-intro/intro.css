@@ -97,7 +97,7 @@
         height: 300px;
     }}
 
-h1 { /*main header*/
+.introHeader { /*main header*/
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 5vw;
     font-weight: 1000;
@@ -109,7 +109,7 @@ h1 { /*main header*/
 
 }
 @media screen and (max-width:750px) {
-    h1 {
+    .introHeader {
         font-size: 40px;
         margin-top: 12px;
         margin-bottom: 12px;
