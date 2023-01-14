@@ -57,6 +57,7 @@
     padding: 1rem;
     display: flex;
     align-items: center;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .navbarLink {

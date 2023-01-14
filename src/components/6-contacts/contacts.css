@@ -1,21 +1,39 @@
 .contactsContainer {
     background-color: rgb(128, 107, 58);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    flex-direction: column;
     position: relative;
 }
 
-h3 {
+.contactsTitle {
     font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3rem;
+    align-self: center;
+    color: rgb(210, 193, 173);
+    margin-top: 3rem;
 }
 
-h4 {
-    font-family: 'Barlow Condensed', sans-serif;
+.contactsItemWrapper {
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    justify-self: center;
 }
 
-p {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-size: 14px;
+.contactsItem {
+    font-size: 5vw;
+    padding: 2vw;
+    color: rgb(210, 193, 173);
+}
+
+.contactsItem2 {
+    font-size: 6vw;
+    padding: 2vw;
+    color: rgb(210, 193, 173);
+}
+
+.contactsRights {
+    color: rgb(210, 193, 173);
+    margin-bottom: 0.7rem;
+    margin-left: 0.7rem;
 }

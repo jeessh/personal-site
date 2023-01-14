@@ -50,8 +50,8 @@ const Navbar = () => {
                     smooth={true} duration={1000} spy={true} exact='true' offset={-1}>Experiences</LinkS>
                 </li>
                 <li className='navbarItem'>
-                <LinkS className='navbarLink' to='projects' 
-                    smooth={true} duration={1000} spy={true} exact='true' offset={-1}>Projects</LinkS>
+                <LinkS className='navbarLink' to='timeline' 
+                    smooth={true} duration={1000} spy={true} exact='true' offset={-1}>Timeline</LinkS>
                 </li>
                 <li className='navbarItem'>
                     <div className='navbarResumeIcon' onClick={onResumeClick}>
