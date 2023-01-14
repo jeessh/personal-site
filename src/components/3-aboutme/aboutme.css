@@ -1,8 +1,65 @@
 .aboutContainer {
-    background-color: rgb(211, 179, 104);
+    background-color: rgb(208, 185, 131);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 120vh;
     position: relative;
+}
+
+.aboutTitle {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 6rem;
+    margin-bottom: 2rem;
+    margin-top: 6rem;
+}
+
+.aboutSubtitle {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3.5rem;
+}
+
+.aboutInfoContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+}
+
+.aboutText {
+    background-color: rgb(225, 197, 156);
+    padding: 3rem;
+    font-size: 2.3rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.aboutPicContainer {
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutPicBG1 {
+    background-color: rgb(219, 204, 183);
+    height: 40rem;
+    width: 30rem;
+    position: absolute;
+    z-index: 3;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.aboutPicBG2 {
+    background-color: rgb(176, 151, 120);
+    height: 41.5rem;
+    width: 31.5rem;
+    z-index: 2;
+    margin-right: 0.6rem;
+    margin-bottom: 0.6rem;
+    position: absolute;
+}
+
+.aboutPic {
+    height: 40rem;
+    width: 30rem;
+    z-index: 5;
 }
