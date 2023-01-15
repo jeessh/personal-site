@@ -1,6 +1,6 @@
 import React from 'react';
 import './aboutme.css';
-import pic from '../../documents/PFP3.png'
+import pic from '../../images/PFP3.png'
 import RevealFade from 'react-reveal/Fade';
 
 const About = () => {
