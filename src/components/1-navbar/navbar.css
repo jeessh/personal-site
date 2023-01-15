@@ -23,7 +23,7 @@
 }
 
 .navbarLogo {
-  color: #f5f5f5;
+  color: rgb(244, 238, 225);
   justify-self: flex-start;
   cursor: pointer;
   font-size: 55px;
@@ -61,13 +61,13 @@
 }
 
 .navbarLink {
-    color: #f5f5f5;
+    color: rgb(244, 238, 225);
     line-height: 85px;
     font-size: 38px; /* size of item text */
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 450;
     margin-top: -5px;
@@ -75,12 +75,12 @@
 
 .navbarLink:hover {
     color: #303030;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease;
 }
 
 .active {
     transition: all 0.3s ease-in-out;
-    border-bottom: 5px ridge #f5f5f5;
+    border-bottom: 5px ridge rgb(244, 238, 225);
 }
 
 .navbarMobileIcon {

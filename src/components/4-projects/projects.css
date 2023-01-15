@@ -1,0 +1,113 @@
+.projectsContainer {
+    background-color: rgb(216, 199, 157);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.projectsTitle {
+    font-family: 'Barlow Condensed', sans-serif;
+    display: flex;
+    align-self: center;
+    font-size: 6rem;
+    margin-bottom: 5rem;
+    margin-top: 6rem;
+    color: #453124;
+}
+
+.projectsSubtitle {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3.5rem;
+    margin-left: 3rem;
+    align-self: flex-start;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 80%;
+    background-color: rgba(224, 211, 194, 0.793);
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    transition: 0.2s ease-in;
+    border: 0.4rem solid #b48d72;
+}
+.projectContainer:hover {
+    scale: 1.02;
+    transition: 0.25s ease-out;
+}
+
+.projectText {
+    align-self: center;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    min-width: 10vw;
+}
+
+.projectTextHeader {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3rem;
+    color: #453124;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    margin: 0;
+    z-index: 2;
+}
+
+.projectTextSubheader {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 2rem;
+    color: #453124;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    margin: 0;
+}
+
+.projectTextDescription {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.3rem;
+    color: #453124;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    margin: 0;
+}
+
+.projectButtonWrapper {
+    display: flex;
+}
+
+.projectButton {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    justify-self: center;
+    background-color: rgba(224, 211, 194, 0.793);
+    color: #977258;
+    height: 3rem;
+    width: 9vw;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    border: 0.2rem solid #977258;
+    border-radius: 0.5rem;
+}
+
+.verticalLine {
+    background-color: #b48d72;
+    align-self: center;
+    width: 0.3rem;
+    height: 17rem;
+    border-radius: 0.2rem;
+}
+
+.transitionSegment {
+    height: 50vh;
+    width: 100%;
+    background: rgb(216, 199, 157);
+    background: linear-gradient(rgb(216, 199, 157) 0%, rgb(152, 126, 65) 100%);
+}

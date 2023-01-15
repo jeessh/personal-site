@@ -1,5 +1,5 @@
 .aboutContainer {
-    background-color: rgb(208, 185, 131);
+    background-color: rgb(226, 214, 185);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,6 +9,7 @@
 
 .aboutTitle {
     font-family: 'Barlow Condensed', sans-serif;
+    color: #453124;
     font-size: 6rem;
     margin-bottom: 2rem;
     margin-top: 6rem;
@@ -27,7 +28,6 @@
 }
 
 .aboutText {
-    background-color: rgb(225, 197, 156);
     padding: 5rem;
     font-size: 2.5rem;
     font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -41,7 +41,7 @@
 }
 
 .aboutPicBG1 {
-    background-color: rgb(219, 204, 183);
+    background-color: rgb(213, 193, 166);
     height: 40rem;
     width: 30rem;
     position: absolute;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './contacts.css';
-import {BsGithub, BsLinkedin, BsSpotify} from 'react-icons/bs'
-import {HiMail} from 'react-icons/hi'
+import {BsGithub, BsLinkedin, BsSpotify, BsDiscord} from 'react-icons/bs'
+import {MdEmail} from 'react-icons/md'
 
 const Contacts = () => {
     return (
@@ -15,7 +15,7 @@ const Contacts = () => {
                     <BsLinkedin/>
                 </a>
                 <a className='contactsItem2' href='mailto: jesshuang5733@gmail.com'>
-                    <HiMail/>
+                    <MdEmail/>
                 </a>
                 <a className='contactsItem' href='https://open.spotify.com/user/kanaphos'>
                     <BsSpotify/>

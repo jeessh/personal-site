@@ -1,0 +1,6 @@
+.transitionSegment {
+    height: 50vh;
+    width: 100%;
+    background: rgb(216, 199, 157);
+    background: linear-gradient(rgb(216, 199, 157) 0%, rgb(152, 126, 65) 100%);
+}
