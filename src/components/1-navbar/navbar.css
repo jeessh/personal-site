@@ -23,7 +23,7 @@
 }
 
 .navbarLogo {
-  color: rgb(244, 238, 225);
+  color: rgb(243, 240, 232);
   justify-self: flex-start;
   cursor: pointer;
   font-size: 55px;
@@ -31,7 +31,11 @@
   align-items: center;
   font-weight: bold;
   text-decoration: none;
-  transition: 0.8s ease-in-out;
+  transition: 0.25s ease;
+}
+.navbarLogo:hover {
+    color: #303030;
+    transition: 0.3s ease;
 }
 
 @media screen and (max-width: 768px) {
@@ -61,7 +65,7 @@
 }
 
 .navbarLink {
-    color: rgb(244, 238, 225);
+    color: rgb(243, 240, 232);
     line-height: 85px;
     font-size: 38px; /* size of item text */
     padding: 0 1rem;

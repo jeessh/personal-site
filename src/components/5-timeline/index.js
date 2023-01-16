@@ -3,7 +3,10 @@ import './timeline.css';
 import { VerticalTimeline, VerticalTimelineElement} from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { SiRoblox } from 'react-icons/si';
-import { FiClock}  from 'react-icons/fi'
+import { FiClock}  from 'react-icons/fi';
+import {BiCodeAlt} from 'react-icons/bi';
+import {IoSchool} from 'react-icons/io5';
+import {GiSkippingRope} from 'react-icons/gi';
 
 const Timeline = () => {
     return (
@@ -21,7 +24,7 @@ const Timeline = () => {
                 dateClassName='timelineItemDate'
                 date= 'September 2019 - January 2020'
                 iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
-                icon={<SiRoblox />}
+                icon={<BiCodeAlt />}
                 >
                     <h3 className='timelineItemTitle'>First Tech Course</h3>
                     <h4 className='timelineItemSubtitle'>TEJ2O1</h4>
@@ -35,7 +38,7 @@ const Timeline = () => {
                 dateClassName='timelineItemDate'
                 date= 'October 2019 - June 2022'
                 iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
-                icon={<SiRoblox />}
+                icon={<BiCodeAlt />}
                 >
                     <h3 className='timelineItemTitle'>First STEM Club</h3>
                     <h4 className='timelineItemSubtitle'>FRC Robotics - Team 7735</h4>
@@ -67,7 +70,7 @@ const Timeline = () => {
                 dateClassName='timelineItemDate'
                 date= 'December 2019'
                 iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
-                icon={<SiRoblox />}
+                icon={<BiCodeAlt />}
                 >
                     <h3 className='timelineItemTitle'>First Tech Assignment</h3>
                     <h4 className='timelineItemSubtitle'>Arduino Rock-Paper-Scissors</h4>
@@ -83,7 +86,7 @@ const Timeline = () => {
                 dateClassName='timelineItemDate'
                 date= 'April 2020 - Present'
                 iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
-                icon={<SiRoblox />}
+                icon={<GiSkippingRope />}
                 >
                     <h3 className='timelineItemTitle'>Beginning to Skip Rope</h3>
                     <h4 className='timelineItemSubtitle'>...And beginning to COVID</h4>
@@ -115,7 +118,7 @@ const Timeline = () => {
                 dateClassName='timelineItemDate'
                 date= 'July 2021 - July 2021'
                 iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
-                icon={<SiRoblox />}
+                icon={<BiCodeAlt />}
                 >
                     <h3 className='timelineItemTitle'>First CS Course</h3>
                     <h4 className='timelineItemSubtitle'>ICS3U</h4>
@@ -131,7 +134,7 @@ const Timeline = () => {
                 dateClassName='timelineItemDate'
                 date= 'July 15, 2021'
                 iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
-                icon={<SiRoblox />}
+                icon={<BiCodeAlt />}
                 >
                     <h3 className='timelineItemTitle'>Created GitHub Account</h3>
                     <h4 className='timelineItemSubtitle'>github.com/jeessh</h4>
@@ -146,7 +149,7 @@ const Timeline = () => {
                 dateClassName='timelineItemDate'
                 date= 'August 20 - 22, 2021'
                 iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
-                icon={<SiRoblox />}
+                icon={<BiCodeAlt />}
                 >
                     <h3 className='timelineItemTitle'>First Hackathon</h3>
                     <h4 className='timelineItemSubtitle'>Hack The 6ix 2021</h4>
@@ -163,7 +166,7 @@ const Timeline = () => {
                 dateClassName='timelineItemDate'
                 date= 'September 17 - 19, 2021'
                 iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
-                icon={<SiRoblox />}
+                icon={<BiCodeAlt />}
                 >
                     <h3 className='timelineItemTitle'>Another Hackathon!</h3>
                     <h4 className='timelineItemSubtitle'>Hack The North 2021</h4>
@@ -180,7 +183,7 @@ const Timeline = () => {
                 dateClassName='timelineItemDate'
                 date= 'March 19th, 2022'
                 iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
-                icon={<SiRoblox />}
+                icon={<BiCodeAlt />}
                 >
                     <h3 className='timelineItemTitle'>First Public Script</h3>
                     <h4 className='timelineItemSubtitle'>Student Council Club Fair</h4>
@@ -196,7 +199,7 @@ const Timeline = () => {
                 dateClassName='timelineItemDate'
                 date= 'April 2022'
                 iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
-                icon={<SiRoblox />}
+                icon={<IoSchool />}
                 >
                     <h3 className='timelineItemTitle'>Received first offer from U of Waterloo!</h3>
                     <h4 className='timelineItemSubtitle'>Honours Software Engineering</h4>
@@ -212,7 +215,7 @@ const Timeline = () => {
                 dateClassName='timelineItemDate'
                 date= 'September 2nd, 2022'
                 iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
-                icon={<SiRoblox />}
+                icon={<IoSchool />}
                 >
                     <h3 className='timelineItemTitle'>First Day at Waterloo</h3>
                     <p className='timelineItemDescription'>
@@ -226,7 +229,7 @@ const Timeline = () => {
                 dateClassName='timelineItemDate'
                 date= 'September 22, 2022 - Present'
                 iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
-                icon={<SiRoblox />}
+                icon={<BiCodeAlt />}
                 >
                     <h3 className='timelineItemTitle'>Joined First Tech Group</h3>
                     <h4 className='timelineItemSubtitle'>Waterloo Aerial Robotics Group</h4>
@@ -241,7 +244,7 @@ const Timeline = () => {
                 dateClassName='timelineItemDate'
                 date= 'December 2022 - Present'
                 iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
-                icon={<SiRoblox />}
+                icon={<BiCodeAlt />}
                 >
                     <h3 className='timelineItemTitle'>Found My Main Coding Partners</h3>
                     <h4 className='timelineItemSubtitle'>From friends to partners-in-crime</h4>

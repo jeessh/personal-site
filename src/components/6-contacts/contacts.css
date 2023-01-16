@@ -17,9 +17,8 @@
 
 .contactsItemWrapper {
     display:flex;
-    flex-direction: row;
-    align-self: center;
-    justify-self: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .contactsItem {
@@ -31,8 +30,9 @@
 
 .contactsItem2 {
     display: flex;
-    font-size: 5.5vw;
+    font-size: 6vw;
     padding: 2vw;
+    margin-bottom: 1.1vw;
     color: rgb(210, 193, 173);
     transition: 0.2s ease-in;
 }
