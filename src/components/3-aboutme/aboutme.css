@@ -20,14 +20,16 @@
     font-size: 3.5rem;
     padding-left: 3rem;
     margin-bottom: 0;
-    margin-top: -5zrem;
+    margin-top: -1rem;
 }
 
 .aboutInfoContainer {
     display: flex;
     flex-direction: row;
     padding: 2rem;
+    padding-bottom: 5rem;
     align-items: center;
+    border-bottom: 0.75rem solid #453124;
 }
 
 .aboutText {
@@ -91,4 +93,35 @@
      50% { transform: rotate(10.0deg) }
      60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
     100% { transform: rotate( 0.0deg) }
+  }
+
+  .aboutParallaxBG {
+    width: 100%;
+    height: 50rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../images/parallaxBG.jpeg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  .aboutQuoteContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+    margin-top: -82rem;
+    border: 1.5rem solid rgb(209, 198, 180);
+
+
+  }
+
+  .aboutQuoteText {
+    color: rgb(233, 227, 218);
+    font-size: 4.5rem;
+    margin: 0.5rem;
+    padding: 2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    border: 0.5rem solid rgb(225, 218, 205);
   }

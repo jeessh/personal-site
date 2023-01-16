@@ -121,7 +121,7 @@ const Timeline = () => {
                     <h4 className='timelineItemSubtitle'>ICS3U</h4>
                     <p className='timelineItemDescription'>
                         Being in the IB Programme meant I couldn't take electives past Gr. 10. As such, I took Gr. 11 Computer Science in Summer School,
-                        learning Java and ending with a 97%.
+                        improving my Java proficiency and ending with a 97%.
                     </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -136,7 +136,7 @@ const Timeline = () => {
                     <h3 className='timelineItemTitle'>Created GitHub Account</h3>
                     <h4 className='timelineItemSubtitle'>github.com/jeessh</h4>
                     <p className='timelineItemDescription'>
-                        The start to 
+                        The start to my portfolio and real start to development!
                     </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -150,8 +150,10 @@ const Timeline = () => {
                 >
                     <h3 className='timelineItemTitle'>First Hackathon</h3>
                     <h4 className='timelineItemSubtitle'>Hack The 6ix 2021</h4>
-                    <p className='timelineItemDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a mauris elit. Nullam vel nulla pretium, feugiat lacus eget, porttitor leo. In vehicula maximus convallis. 
-                    Aliquam erat volutpat. Nunc turpis neque, elementum vitae euismod nec, eleifend sit amet mi. Aliquam aliquam, dui a dignissim lobortis, lacus ligula lacinia sem, sed.
+                    <p className='timelineItemDescription'>
+                        It was time to test my newly acquired skills in Java to compete in a hackathon... <br/> <br/>
+
+                        ...Or not. My group members and I didn't know where to get started and ended up just listening to workshops. At least I learned how to use my GitHub!
                     </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -165,8 +167,10 @@ const Timeline = () => {
                 >
                     <h3 className='timelineItemTitle'>Another Hackathon!</h3>
                     <h4 className='timelineItemSubtitle'>Hack The North 2021</h4>
-                    <p className='timelineItemDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a mauris elit. Nullam vel nulla pretium, feugiat lacus eget, porttitor leo. In vehicula maximus convallis. 
-                    Aliquam erat volutpat. Nunc turpis neque, elementum vitae euismod nec, eleifend sit amet mi. Aliquam aliquam, dui a dignissim lobortis, lacus ligula lacinia sem, sed.
+                    <p className='timelineItemDescription'>
+                        What better way to handle failure than to try again! <br/><br/>
+                        This time going in with random teammates, we decided to use languages and frameworks we never used before. Although we didn't win any prizes,
+                        the experience was more than enough (on top of the free swag)!
                     </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -180,7 +184,9 @@ const Timeline = () => {
                 >
                     <h3 className='timelineItemTitle'>First Public Script</h3>
                     <h4 className='timelineItemSubtitle'>Student Council Club Fair</h4>
-                    <p className='timelineItemDescription'>cum
+                    <p className='timelineItemDescription'>
+                        As the social affairs coordinator for my student council, I was tasked with running the fair. Although not my task, I believed in saving paper through online means.
+                        <br/> Experimenting with Google Apps Script, I built a raffle system which was to be used by 1000+ attendees!
                     </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -194,8 +200,9 @@ const Timeline = () => {
                 >
                     <h3 className='timelineItemTitle'>Received first offer from U of Waterloo!</h3>
                     <h4 className='timelineItemSubtitle'>Honours Software Engineering</h4>
-                    <p className='timelineItemDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a mauris elit. Nullam vel nulla pretium, feugiat lacus eget, porttitor leo. In vehicula maximus convallis. 
-                    Aliquam erat volutpat. Nunc turpis neque, elementum vitae euismod nec, eleifend sit amet mi. Aliquam aliquam, dui a dignissim lobortis, lacus ligula lacinia sem, sed.
+                    <p className='timelineItemDescription'> 
+                        All of my dedication towards school and software culminated in my first offer to Waterloo! Although I did not accept the offer, I am forever grateful of that day
+                        where it felt like my future was being built in front of my eyes.
                     </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -208,9 +215,8 @@ const Timeline = () => {
                 icon={<SiRoblox />}
                 >
                     <h3 className='timelineItemTitle'>First Day at Waterloo</h3>
-                    <h4 className='timelineItemSubtitle'>Spoopy</h4>
-                    <p className='timelineItemDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a mauris elit. Nullam vel nulla pretium, feugiat lacus eget, porttitor leo. In vehicula maximus convallis. 
-                    Aliquam erat volutpat. Nunc turpis neque, elementum vitae euismod nec, eleifend sit amet mi. Aliquam aliquam, dui a dignissim lobortis, lacus ligula lacinia sem, sed.
+                    <p className='timelineItemDescription'>
+                        There's something surreal about beginning a new life. Like the start of high school, the first day was filled with joy, sadness, and uncertainty, but there was still always a sense of excitement.
                     </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -224,8 +230,8 @@ const Timeline = () => {
                 >
                     <h3 className='timelineItemTitle'>Joined First Tech Group</h3>
                     <h4 className='timelineItemSubtitle'>Waterloo Aerial Robotics Group</h4>
-                    <p className='timelineItemDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a mauris elit. Nullam vel nulla pretium, feugiat lacus eget, porttitor leo. In vehicula maximus convallis. 
-                    Aliquam erat volutpat. Nunc turpis neque, elementum vitae euismod nec, eleifend sit amet mi. Aliquam aliquam, dui a dignissim lobortis, lacus ligula lacinia sem, sed.
+                    <p className='timelineItemDescription'>
+                        Most of the clubs joined in high school were for the community. As my first club solely dedicated to software development, it was my first experience to the new work environment and world.
                     </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -239,8 +245,9 @@ const Timeline = () => {
                 >
                     <h3 className='timelineItemTitle'>Found My Main Coding Partners</h3>
                     <h4 className='timelineItemSubtitle'>From friends to partners-in-crime</h4>
-                    <p className='timelineItemDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a mauris elit. Nullam vel nulla pretium, feugiat lacus eget, porttitor leo. In vehicula maximus convallis. 
-                    Aliquam erat volutpat. Nunc turpis neque, elementum vitae euismod nec, eleifend sit amet mi. Aliquam aliquam, dui a dignissim lobortis, lacus ligula lacinia sem, sed.
+                    <p className='timelineItemDescription'>
+                        What started as three friends from high school doing a project is now a well-established group of developers harmoniously creating projects. 
+                        <br/><br/>However, still friends more than anything!
                     </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

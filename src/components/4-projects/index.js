@@ -25,15 +25,38 @@ const Projects = () => {
         <h1 className='projectsTitle'>My Portfolio</h1>
         <div className='projectContainer'>
             <div className='projectText'>
+                    <h3 className='projectTextHeader'>Credictor</h3>
+                    <h4 className='projectTextSubheader'>Personal Group Project</h4>
+                    <p className='projectTextDescription'>
+                        Credictor aims to streamline the credit card approval process and improve the overall user experience. Creating a REST API using Flask, I integrated the
+                        front-end and back-end.
+                    </p>
+                    <div className='projectButtonWrapper'>
+                        <a href='https://github.com/jeessh/Credictor' target='_blank'>
+                            <button className='projectButton'>View Code</button>
+                        </a>
+                    </div>
+            </div>
+            <div className='verticalLine'/>
+            <div className='projectWrapper'>
+                <div className='imageOverlay'>
+                    <img className='projectImage' src={credictor} alt='credictor'/>
+                </div>
+                <h4 className='projectDate'>December 2022 - January 2023</h4>
+            </div>
+        </div>
+        <div className='projectContainer'>
+            <div className='projectText'>
                     <h3 className='projectTextHeader'>Image Classifier – CIFAR-10</h3>
                     <h4 className='projectTextSubheader'>Waterloo Aerial Robotics Group</h4>
                     <p className='projectTextDescription'>
                         As part of the Computer Vision Bootcamp for WARG, I was tasked with creating a model to classify various images into categories.
-                        Creating a CNN using Python and Pytorch, I was able to achieve 81% accuracy with my model.
-                        
+                        Creating a CNN using Python and Pytorch, I was able to achieve 81% accuracy with my model.         
                     </p>
                     <div className='projectButtonWrapper'>
-                        <button className='projectButton'>View Code</button>
+                        <a href='https://github.com/jeessh/computer-vision-bootcamp' target="_black">
+                            <button className='projectButton'>View Code</button>
+                        </a>
                     </div>
             </div>
             <div className='verticalLine'/>
@@ -46,28 +69,6 @@ const Projects = () => {
         </div>
         <div className='projectContainer'>
             <div className='projectText'>
-                    <h3 className='projectTextHeader'>Credictor</h3>
-                    <h4 className='projectTextSubheader'>Personal Group Project</h4>
-                    <p className='projectTextDescription'>
-                        Credictor aims to streamline the credit card approval process and improve the overall user experience. Creating a REST API using Flask, I integrated the
-                        front-end and back-end.
-
-                    </p>
-                    <div className='projectButtonWrapper'>
-                        <button className='projectButton'>View Code</button>
-                        <button className='projectButton'>View Demo</button>
-                    </div>
-            </div>
-            <div className='verticalLine'/>
-            <div className='projectWrapper'>
-                <div className='imageOverlay'>
-                    <img className='projectImage' src={credictor} alt='credictor'/>
-                </div>
-                <h4 className='projectDate'>November 2022 - January 2023</h4>
-            </div>
-        </div>
-        <div className='projectContainer'>
-            <div className='projectText'>
                 <h3 className='projectTextHeader'>Google Form Raffle</h3>
                 <h4 className='projectTextSubheader'>Student Council Club Fair</h4>
                 <p className='projectTextDescription'>
@@ -75,7 +76,9 @@ const Projects = () => {
                     For every correct answer that is inputted (answer given by booths), the user obtains a new entry.
                     </p>
                  <div className='projectButtonWrapper'>
-                    <button className='projectButton'>View Code</button>
+                    <a href='https://github.com/jeessh/Google-Form-Raffle-Entries' target='_blank'>
+                        <button className='projectButton'>View Code</button>
+                    </a>
                 </div>
             </div>
             <div className='verticalLine'/>
@@ -95,9 +98,11 @@ const Projects = () => {
                         Using a MERN stack I focused on establishing a solid back-end for job listings, authentication and distance gauging with Google Maps API, while lightly assisting with front-end.
                     </p>
                     <div className='projectButtonWrapper'>
-                        <button className='projectButton'>View Code</button>
+                        <a href='https://github.com/itsvitaliio/troki' target='_blank'>
+                            <button className='projectButton'>View Code</button>
+                        </a>                       
                         <a href='https://devpost.com/software/troki' target="_blank">
-                            <button className='projectButton'>View Demo</button>
+                            <button className='projectButton'>View Project</button>
                         </a>
                     </div>
             </div>
@@ -118,7 +123,9 @@ const Projects = () => {
                         Built using pure Java, I received a 100 on the project, finishing with a 97 in my UCS3U course. 
                     </p>
                     <div className='projectButtonWrapper'>
-                        <button className='projectButton'>View Code</button>
+                        <a href='https://github.com/jeessh/Stones' target='_blank'>
+                            <button className='projectButton'>View Code</button>
+                        </a>
                     </div>
             </div>
             <div className='verticalLine'/>
@@ -135,8 +142,12 @@ const Projects = () => {
                     <h4 className='projectTextSubheader'>FRC - Team 7735</h4>
                     <p className='projectTextDescription'>In preparation of the 2020 FRC competition, I worked on coding my highschool team's robot. Made using Java and FRC Robotics Library, our team eventually reached the quarterfinals of the competition.</p>
                     <div className='projectButtonWrapper'>
-                        <button className='projectButton'>View Code</button>
-                        <button className='projectButton'>View Demo</button>
+                        <a href='https://github.com/jeessh/INFINITE-RECHARGE-2020' target='_blank'>
+                            <button className='projectButton'>View Code</button>
+                        </a>
+                        <a href='https://www.instagram.com/p/B9NY36Ag8RW/' target='_blank'>
+                            <button className='projectButton'>View Demo</button>
+                        </a>
                     </div>
             </div>
             <div className='verticalLine'/>
@@ -156,8 +167,12 @@ const Projects = () => {
                         Utilizing sensors, motors, touch LEDs, and coded using VEXCode blocks, the robot must gather 3 cubes and place them in designated locations.
                     </p>
                     <div className='projectButtonWrapper'>
-                        <button className='projectButton'>View Code</button>
-                        <button className='projectButton'>View Demo</button>
+                        <a href='https://github.com/jeessh/VEX-Robotics-Project' target='_blank'>
+                            <button className='projectButton'>View Code</button>
+                        </a>
+                        <a href='https://drive.google.com/file/d/1219-0cY95P4yH9oPZZUrALUEfj1e-D9q/view' target='_blank'>
+                            <button className='projectButton'>View Demo</button>    
+                        </a>
                     </div>
             </div>
             <div className='verticalLine'/>
@@ -177,8 +192,12 @@ const Projects = () => {
                         experience of the classic game.
                     </p>
                     <div className='projectButtonWrapper'>
-                        <button className='projectButton'>View Code</button>
-                        <button className='projectButton'>View Demo</button>
+                        <a href='https://github.com/jeessh/Arduino-RockPaperScissors'>
+                            <button className='projectButton'>View Code</button>
+                        </a>
+                        <a href='https://youtu.be/QWMto8dLqMc' target='_blank'>
+                            <button className='projectButton'>View Demo</button>
+                        </a>
                     </div>
             </div>
             <div className='verticalLine'/>
