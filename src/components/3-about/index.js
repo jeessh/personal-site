@@ -26,11 +26,13 @@ const About = () => {
                     Programming to me is poetry; it is open to everyone, but it takes perseverance and passion to make it a work of art.
                 </p>
             </div>
+            <RevealFade right>
             <div className='aboutPicContainer'>
                 <img className='aboutPic' src={pic} alt='Profile'/>
                 <div className='aboutPicBG1'/>
                 <div className='aboutPicBG2'/>
             </div>
+            </RevealFade>
         </div>
         <div className='aboutParallaxBG'>
             <div className='aboutQuoteContainer' style={{transform: `translateY(${offsetY * 0.02}rem)`}}>

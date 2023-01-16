@@ -9,6 +9,9 @@ import infRecharge from '../../images/inf-recharge.png'
 import vex from '../../images/vex.png'
 import rps from '../../images/RPS.png'
 import './projects.css';
+import RevealSlide from 'react-reveal/Slide';
+import RevealFade from 'react-reveal/Fade';
+
 
 const Projects = () => {
     const [offsetY, setOffsetY] = useState(0);
@@ -22,7 +25,10 @@ const Projects = () => {
 
     return (
     <div className='projectsContainer' id='projects'>
-        <h1 className='projectsTitle'>My Portfolio</h1>
+        <RevealFade top>
+            <h1 className='projectsTitle'>My Portfolio</h1>
+        </RevealFade>
+        <RevealSlide left>
         <div className='projectContainer'>
             <div className='projectText'>
                     <h3 className='projectTextHeader'>Credictor</h3>
@@ -45,6 +51,8 @@ const Projects = () => {
                 <h4 className='projectDate'>December 2022 - January 2023</h4>
             </div>
         </div>
+        </RevealSlide>
+        <RevealSlide left>
         <div className='projectContainer'>
             <div className='projectText'>
                     <h3 className='projectTextHeader'>Image Classifier – CIFAR-10</h3>
@@ -67,6 +75,8 @@ const Projects = () => {
                 <h4 className='projectDate'>December 2022 - January 2023</h4>
             </div>
         </div>
+        </RevealSlide>
+        <RevealSlide left>
         <div className='projectContainer'>
             <div className='projectText'>
                 <h3 className='projectTextHeader'>Google Form Raffle</h3>
@@ -89,6 +99,8 @@ const Projects = () => {
                 <h4 className='projectDate'>October 2021</h4>
             </div>
         </div>
+        </RevealSlide>
+        <RevealSlide left>
         <div className='projectContainer'>
             <div className='projectText'>
                     <h3 className='projectTextHeader'>Troki</h3>
@@ -113,14 +125,16 @@ const Projects = () => {
                 </div>
                 <h4 className='projectDate'>September 2021</h4>
             </div> 
-  </div>
+        </div>
+        </RevealSlide>
+        <RevealSlide left>
         <div className='projectContainer'>
             <div className='projectText'>
                     <h3 className='projectTextHeader'>Stones</h3>
                     <h4 className='projectTextSubheader'>ICS3U Culminating Project</h4>
                     <p className='projectTextDescription'>
                         A spin-off of rock-paper-scissors, this game pits two players against each other, with the most strategic one coming out on top. 
-                        Built using pure Java, I received a 100 on the project, finishing with a 97 in my UCS3U course. 
+                        Built using pure Java, I received a 100 on the project, finishing with a 97 in my ICS3U course. 
                     </p>
                     <div className='projectButtonWrapper'>
                         <a href='https://github.com/jeessh/Stones' target='_blank'>
@@ -136,6 +150,8 @@ const Projects = () => {
                 <h4 className='projectDate'>July 2021</h4>
             </div>
         </div>
+        </RevealSlide>
+        <RevealSlide left>
         <div className='projectContainer'>
             <div className='projectText'>
                     <h3 className='projectTextHeader'>Infinite Recharge 2020</h3>
@@ -158,6 +174,8 @@ const Projects = () => {
                 <h4 className='projectDate'>March 2020</h4>
             </div>
         </div>
+        </RevealSlide>
+        <RevealSlide left>
         <div className='projectContainer'>
             <div className='projectText'>
                     <h3 className='projectTextHeader'>VEX Robotics</h3>
@@ -183,6 +201,8 @@ const Projects = () => {
                 <h4 className='projectDate'>January 2020</h4>
             </div>
         </div>
+        </RevealSlide>
+        <RevealSlide left>
         <div className='projectContainer'>
             <div className='projectText'>
                     <h3 className='projectTextHeader'>Rock-Paper-Scissors</h3>
@@ -208,6 +228,7 @@ const Projects = () => {
                 <h4 className='projectDate'>December 2020</h4>
             </div>
         </div>
+        </RevealSlide>
         <div className='transitionSegment'>
             <h2 className='transitionText' style={{transform: `translateY(${offsetY * 0.0125}rem)`}}>And with every milestone, there lies a story...</h2>
             <div className='transitionTextBorders' style={{transform: `translateY(${offsetY * 0.0175}rem) translateX(${offsetY * 0.005}rem)`}}/>
