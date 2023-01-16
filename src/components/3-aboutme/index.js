@@ -10,7 +10,15 @@ const About = () => {
         <h1 className='aboutTitle'>About Me</h1>
         </RevealFade>
         <div className='aboutInfoContainer'>
-            <div className='aboutText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor convallis lobortis. Sed pulvinar ipsum non orci blandit cursus. Fusce sed tincidunt nunc, vel ullamcorper mauris.</div>
+            <div className='column'>
+                <h3 className='aboutSubtitle'>Hi-ya! <span className='wave'>👋</span> </h3>
+                <p className='aboutText'>
+                    My name's Jesse and I'm currently studying at the University of Waterloo for computer science.
+                </p>
+                <p className='aboutText'>
+                    Programming to me is poetry; it is open to everyone, but it takes perseverance and passion to make it a work of art.
+                </p>
+            </div>
             <div className='aboutPicContainer'>
                 <img className='aboutPic' src={pic} alt='Profile'/>
                 <div className='aboutPicBG1'/>
