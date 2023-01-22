@@ -59,7 +59,7 @@ const Projects = () => {
                     <h4 className='projectTextSubheader'>Waterloo Aerial Robotics Group</h4>
                     <p className='projectTextDescription'>
                         As part of the Computer Vision Bootcamp for WARG, I was tasked with creating a model to classify various images into categories.
-                        Creating a CNN using Python and Pytorch, I was able to achieve 81% accuracy with my model.         
+                        Creating a CNN using Python and Pytorch, I was able to achieve 75% accuracy with my model.         
                     </p>
                     <div className='projectButtonWrapper'>
                         <a href='https://github.com/jeessh/computer-vision-bootcamp' target="_black">
