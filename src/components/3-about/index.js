@@ -19,7 +19,7 @@ const About = () => {
         </RevealFade>
         <div className='aboutInfoContainer'>
             <div className='column'>
-                <h3 className='aboutSubtitle'>Hi-ya! <span className='wave'>👋</span> </h3>
+                <h3 className='aboutSubtitle'>Hi-ya! <span className='wave'>👋🏻</span> </h3>
                 <p className='aboutText'>
                     My name's Jesse and I'm currently studying at the University of Waterloo for computer science.
                     <br/><br/>

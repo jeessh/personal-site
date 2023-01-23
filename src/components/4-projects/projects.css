@@ -1,5 +1,5 @@
 .projectsContainer {
-    background-color: rgb(216, 199, 157);
+    background-color: rgb(244, 236, 218);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -22,7 +22,7 @@
     flex-direction: row;
     align-self: center;
     width: 80%;
-    background-color: rgba(224, 211, 194, 0.793);
+    background-color: rgba(239, 226, 209, 0.793);
     padding: 0.5rem;
     margin-bottom: 2rem;
     border-radius: 1rem;
@@ -81,7 +81,7 @@
     font-weight: 500;
     font-size: 1.3rem;
     justify-self: center;
-    background-color: rgba(224, 211, 194, 0.793);
+    background-color: rgba(239, 226, 209, 0.793);
     color: #977258;
     height: 3rem;
     width: 9vw;
@@ -93,7 +93,7 @@
 }
 .projectButton:hover {
     background-color: rgba(151, 114, 88, 0.793);
-    color: rgba(224, 211, 194);
+    color: rgba(239, 226, 209);
     transform: scale(1.1);
     transition: 0.25s ease-out;
     cursor: pointer;
@@ -155,8 +155,8 @@
     width: 100vw;
     display: grid;
     overflow: hidden;
-    background: rgb(216, 199, 157);
-    background: linear-gradient(rgb(216, 199, 157) 0%, rgb(152, 126, 65) 100%);
+    background: rgb(244, 236, 218);
+    background: linear-gradient(rgb(244, 236, 218) 0%, rgb(152, 126, 65) 100%);
 }
 
 

@@ -26,7 +26,7 @@ const Intro = () => {
                     <p className='textboxp changeText'> </p>
                 </div>
             </div>
-            <div className='indContainer'>
+            <div className='indContainer' style={{opacity: 2+(-1*Math.exp(offsetY*0.0025))}}>
                 <li className='indItem'>
                     <p1 className='indp bounce'>Scroll Down!</p1>
                 </li>
