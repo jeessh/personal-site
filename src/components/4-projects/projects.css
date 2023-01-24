@@ -5,6 +5,7 @@
     align-items: flex-start;
     position: relative;
     border-top: 0.75rem solid #453124;
+    overflow: hidden;
 }
 
 .projectsTitle {
