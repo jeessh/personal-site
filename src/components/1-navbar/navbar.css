@@ -34,7 +34,7 @@
   transition: 0.25s ease;
 }
 .navbarLogo:hover {
-    color: #303030;
+    color: rgb(83, 71, 41);
     transition: 0.3s ease;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .navbarLink:hover {
-    color: #303030;
+    color: rgb(83, 71, 41);
     transition: 0.3s ease;
 }
 
@@ -115,6 +115,6 @@
 }
 
 .navbarResumeIcon:hover {
-    color: #303030;
+    color: rgb(83, 71, 41);
     transition: 0.3s ease-in-out;
 }
