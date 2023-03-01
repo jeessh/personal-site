@@ -131,14 +131,14 @@
 }
 
 .imageOverlay {
-    width: 25.75vw;
+    width: 25.5vw;
     height: 13rem;
     margin-top: 1.2vw;
     margin-bottom: 0.8rem;
-    border-radius: 0.35rem;    
+    border-radius: 0.3rem;    
     opacity: 1;
     display: grid;
-    background-color: #a8947c;
+    background-color: #af9a81cd;
 }
 
 .projectDate {
@@ -152,7 +152,7 @@
 }
 
 .transitionSegment {
-    height: 50rem;
+    height: 60rem;
     width: 100vw;
     display: grid;
     overflow: hidden;
@@ -193,7 +193,7 @@
     margin-bottom: 0;
     margin-top: -130rem;
     margin-block-end: 0;
-    top: -49.8rem;
-    left: -29.8rem;
+    top: -57.8rem;
+    left: -32.8rem;
     z-index: 10;
 }

@@ -8,8 +8,8 @@ import stones from '../../images/stones.png'
 import infRecharge from '../../images/inf-recharge.png'
 import vex from '../../images/vex.png'
 import rps from '../../images/RPS.png'
+import fb from '../../images/FitBin2.png'
 import './projects.css';
-import RevealSlide from 'react-reveal/Slide';
 import RevealFade from 'react-reveal/Fade';
 
 
@@ -28,7 +28,31 @@ const Projects = () => {
         <RevealFade top>
             <h1 className='projectsTitle'>My Portfolio</h1>
         </RevealFade>
-        <RevealSlide left>
+        <RevealFade>
+        <div className='projectContainer'>
+            <div className='projectText'>
+                    <h3 className='projectTextHeader'>FitBin</h3>
+                    <h4 className='projectTextSubheader'>E-commerce React Website</h4>
+                    <p className='projectTextDescription'>
+                        Using ReactJS and CSS, FitBin is a user-friendly e-commerce website. It is currently
+                        in development to include full-stack aspects, such as user login and the implementation of Stripe API for payments.
+                    </p>
+                    <div className='projectButtonWrapper'>
+                        <a href='https://github.com/jeessh/MarketBin'>
+                            <button className='projectButton'>View Code</button>
+                        </a>
+                    </div>
+            </div>
+            <div className='verticalLine'/>
+            <div className='projectWrapper'>
+                <div className='imageOverlay'>
+                    <img className='projectImage' src={fb} alt='MarketBin'/>
+                </div>
+                <h4 className='projectDate'>February 2023 - Present</h4>
+            </div>
+        </div>
+        </RevealFade>
+        <RevealFade>
         <div className='projectContainer'>
             <div className='projectText'>
                     <h3 className='projectTextHeader'>Credictor</h3>
@@ -51,8 +75,8 @@ const Projects = () => {
                 <h4 className='projectDate'>December 2022 - January 2023</h4>
             </div>
         </div>
-        </RevealSlide>
-        <RevealSlide left>
+        </RevealFade>
+        <RevealFade>
         <div className='projectContainer'>
             <div className='projectText'>
                     <h3 className='projectTextHeader'>Image Classifier – CIFAR-10</h3>
@@ -75,8 +99,8 @@ const Projects = () => {
                 <h4 className='projectDate'>December 2022 - January 2023</h4>
             </div>
         </div>
-        </RevealSlide>
-        <RevealSlide left>
+        </RevealFade>
+        <RevealFade>
         <div className='projectContainer'>
             <div className='projectText'>
                 <h3 className='projectTextHeader'>Google Form Raffle</h3>
@@ -99,8 +123,8 @@ const Projects = () => {
                 <h4 className='projectDate'>October 2021</h4>
             </div>
         </div>
-        </RevealSlide>
-        <RevealSlide left>
+        </RevealFade>
+        <RevealFade>
         <div className='projectContainer'>
             <div className='projectText'>
                     <h3 className='projectTextHeader'>Troki</h3>
@@ -126,8 +150,8 @@ const Projects = () => {
                 <h4 className='projectDate'>September 2021</h4>
             </div> 
         </div>
-        </RevealSlide>
-        <RevealSlide left>
+        </RevealFade>
+        <RevealFade>
         <div className='projectContainer'>
             <div className='projectText'>
                     <h3 className='projectTextHeader'>Stones</h3>
@@ -150,8 +174,8 @@ const Projects = () => {
                 <h4 className='projectDate'>July 2021</h4>
             </div>
         </div>
-        </RevealSlide>
-        <RevealSlide left>
+        </RevealFade>
+        <RevealFade>
         <div className='projectContainer'>
             <div className='projectText'>
                     <h3 className='projectTextHeader'>Infinite Recharge 2020</h3>
@@ -174,8 +198,8 @@ const Projects = () => {
                 <h4 className='projectDate'>March 2020</h4>
             </div>
         </div>
-        </RevealSlide>
-        <RevealSlide left>
+        </RevealFade>
+        <RevealFade>
         <div className='projectContainer'>
             <div className='projectText'>
                     <h3 className='projectTextHeader'>VEX Robotics</h3>
@@ -201,8 +225,8 @@ const Projects = () => {
                 <h4 className='projectDate'>January 2020</h4>
             </div>
         </div>
-        </RevealSlide>
-        <RevealSlide left>
+        </RevealFade>
+        <RevealFade>
         <div className='projectContainer'>
             <div className='projectText'>
                     <h3 className='projectTextHeader'>Rock-Paper-Scissors</h3>
@@ -228,7 +252,7 @@ const Projects = () => {
                 <h4 className='projectDate'>December 2020</h4>
             </div>
         </div>
-        </RevealSlide>
+        </RevealFade>
         <div className='transitionSegment'>
             <h2 className='transitionText' style={{transform: `translateY(${offsetY * 0.0125}rem)`}}>And with every milestone, there lies a story...</h2>
             <div className='transitionTextBorders' style={{transform: `translateY(${offsetY * 0.0175}rem) translateX(${offsetY * 0.005}rem)`}}/>
