@@ -137,7 +137,7 @@
 
 @keyframes changeText {
     0%{content: "UW CS '27"}
-    35%{ content: "Full-Stack Dev.";}
+    35%{ content: "Front-End Dev.";}
     66%{ content:"Food Connoisseur";}
 }
 

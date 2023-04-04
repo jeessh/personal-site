@@ -3,7 +3,7 @@ import React from 'react';
 import './navbar.css';
 import { ImProfile } from 'react-icons/im'
 import {Link as LinkS, animateScroll} from 'react-scroll'
-import pdf from '../../documents/summer_resume_2023.pdf'
+import pdf from '../../documents/summer_resume_2023 - front_end.pdf'
 
 
 const Navbar = () => {
