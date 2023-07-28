@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React, {useState, useEffect}from 'react';
+import React, {useState, useEffect} from 'react';
 import cifar from '../../images/cifar.webp'
 import credictor from '../../images/credictor.png'
 import googleform from '../../images/googleform.png'
@@ -249,7 +249,7 @@ const Projects = () => {
                 <div className='imageOverlay'>
                     <img className='projectImage' src={rps} alt='rps'/>
                 </div>
-                <h4 className='projectDate'>December 2020</h4>
+                <h4 className='projectDate'>December 2019</h4>
             </div>
         </div>
         </RevealFade>

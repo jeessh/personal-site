@@ -16,7 +16,7 @@ const Navbar = () => {
         animateScroll.scrollToTop();
       }
       
-    window.addEventListener('scroll', atNavbar)
+    window.addEventListener('scroll', atNavbar);
     function atNavbar(theDiv) {
         const rect = theDiv.getBoundingClientRect();
 
