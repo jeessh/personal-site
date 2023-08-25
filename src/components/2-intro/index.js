@@ -26,14 +26,14 @@ const Intro = () => {
                     <p className='textboxp changeText'> </p>
                 </div>
             </div>
-            <div className='indContainer' style={{opacity: 2+(-1*Math.exp(offsetY*0.0025))}}>
+            {/* <div className='indContainer' style={{opacity: 2+(-1*Math.exp(offsetY*0.0025))}}>
                 <li className='indItem'>
                     <p1 className='indp bounce'>Scroll Down!</p1>
                 </li>
                 <li className='indItem'>
                     <IoChevronDown className='indIcon bounce2'/>
                 </li>
-            </div>
+            </div> */}
         </div>
 
     )
