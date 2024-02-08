@@ -2,7 +2,6 @@ import React, { useState, useEffect} from 'react';
 import './intro.css';
 import image1 from '../../images/introimg1.svg'
 import image2 from '../../images/introimg2.svg'
-import { IoChevronDown } from 'react-icons/io5'
 
 const Intro = () => {
 

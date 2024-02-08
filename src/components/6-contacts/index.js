@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
 import './contacts.css';
-import {BsGithub, BsLinkedin, BsSpotify, BsDiscord} from 'react-icons/bs'
+import {BsGithub, BsLinkedin, BsSpotify} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
 
 const Contacts = () => {
