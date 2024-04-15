@@ -242,7 +242,7 @@ const Timeline = () => {
                 contentStyle={{background: 'rgb(244, 236, 218)', color: 'rgb(244, 236, 218)', boxShadow: '0 -1vh 0 rgb(219, 194, 148)'}}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(244, 236, 218)' }}
                 dateClassName='timelineItemDate'
-                date= 'December 2022 - Present'
+                date= 'December 2022'
                 iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
                 icon={<BiCodeAlt />}
                 >
@@ -251,6 +251,21 @@ const Timeline = () => {
                     <p className='timelineItemDescription'>
                         What started as three friends from high school doing a project is now a well-established group of developers harmoniously creating projects. 
                         <br/><br/>However, still friends more than anything!
+                    </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+                className='timelineItem'
+                contentStyle={{background: 'rgb(244, 236, 218)', color: 'rgb(244, 236, 218)', boxShadow: '0 -1vh 0 rgb(219, 194, 148)'}}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(244, 236, 218)' }}
+                dateClassName='timelineItemDate'
+                date= 'May 2023'
+                iconStyle={{ background: 'rgb(211, 176, 94)', color: 'rgb(245, 241, 237)' }}
+                icon={<BiCodeAlt />}
+                >
+                    <h3 className='timelineItemTitle'>First Co-op</h3>
+                    <h4 className='timelineItemSubtitle'>Wiz Robotics</h4>
+                    <p className='timelineItemDescription'>
+                        After a long and arduous search, I finally found my first co-op at Wiz Robotics! <br/><br/> Can't wait to see what the future holds!
                     </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
